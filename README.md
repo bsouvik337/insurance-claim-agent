@@ -26,3 +26,8 @@ insurance_claim_agent/
 └── README.md
 
 The system integrates with OpenAI GPT as a lightweight decision agent. If API quota is unavailable, the agent falls back to rule-based routing while preserving the same interface. This ensures reliability and production-ready behavior.
+
+## How to Run
+```bash
+pip install -r requirements.txt
+python src/main.py
